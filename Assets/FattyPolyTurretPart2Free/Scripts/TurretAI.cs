@@ -101,6 +101,24 @@ public class TurretAI : MonoBehaviour {
                     distAway = dist;
                 }
             }
+            else if (colls[i].tag == "GreenPlane")
+            {
+                float dist = Vector3.Distance(transform.position, colls[i].transform.position);
+                if (dist < distAway)
+                {
+                    currentTarget = colls[i].gameObject;
+                    distAway = dist;
+                }
+            }
+            else if (colls[i].tag == "RainbowPlane")
+            {
+                float dist = Vector3.Distance(transform.position, colls[i].transform.position);
+                if (dist < distAway)
+                {
+                    currentTarget = colls[i].gameObject;
+                    distAway = dist;
+                }
+            }
         }
     }
 

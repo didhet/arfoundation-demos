@@ -785,7 +785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawner: {fileID: 889457017}
   shootScript: {fileID: 842418203}
-  m_PlacedPrefab: {fileID: 4716501121646759872, guid: 4927caa35ccce41bc907380a83987004,
+  m_PlacedPrefab: {fileID: 6878574935280800392, guid: 5bc39dd79ac904ee39a20fbd13b5a7e5,
     type: 3}
   m_MaxNumberOfObjectsToPlace: 1
   m_CanReposition: 0
